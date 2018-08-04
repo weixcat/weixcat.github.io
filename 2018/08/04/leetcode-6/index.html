@@ -97,22 +97,24 @@
 
 
 
-  <meta name="description" content="only word bleed">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Weix&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/tags/R/index.html">
+  <meta name="description" content="ZigZag ConversionThe string “PAYPALISHIRING” is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)  P   A">
+<meta name="keywords" content="algorithm">
+<meta property="og:type" content="article">
+<meta property="og:title" content="leetcode 6">
+<meta property="og:url" content="http://yoursite.com/2018/08/04/leetcode-6/index.html">
 <meta property="og:site_name" content="Weix&#39;s Blog">
-<meta property="og:description" content="only word bleed">
+<meta property="og:description" content="ZigZag ConversionThe string “PAYPALISHIRING” is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)  P   A">
+<meta property="og:updated_time" content="2018-08-04T14:26:25.881Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Weix&#39;s Blog">
-<meta name="twitter:description" content="only word bleed">
+<meta name="twitter:title" content="leetcode 6">
+<meta name="twitter:description" content="ZigZag ConversionThe string “PAYPALISHIRING” is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)  P   A">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/R/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/08/04/leetcode-6/"/>
 
 
 
@@ -122,7 +124,7 @@
   };
 </script>
 
-  <title>Tag: R | Weix's Blog</title>
+  <title>leetcode 6 | Weix's Blog</title>
   
 
 
@@ -169,7 +171,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -280,58 +282,169 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>R<small>Tag</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
+
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/04/leetcode-6/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="weix">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/favicon.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Weix's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/04/06/R-language/" itemprop="url">
-              
-                <span itemprop="name">R language</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">leetcode 6</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-04-06T20:21:03+08:00"
-              content="2018-04-06" >
-          04-06
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-04T22:20:47+08:00">2018-08-04</time>
+            
 
-    </header>
-  </article>
+            
+            
 
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <ol start="6">
+<li>ZigZag Conversion<br>The string “PAYPALISHIRING” is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)</li>
+</ol>
+<p>P   A   H   N<br>A P L S I I G<br>Y   I   R<br>And then read line by line: “PAHNAPLSIIGYIR”</p>
+<p>Write the code that will take a string and make this conversion given a number of rows:</p>
+<p>string convert(string s, int numRows);<br>Example 1:</p>
+<p>Input: s = “PAYPALISHIRING”, numRows = 3<br>Output: “PAHNAPLSIIGYIR”<br>Example 2:</p>
+<p>Input: s = “PAYPALISHIRING”, numRows = 4<br>Output: “PINALSIGYAHRPI”<br>Explanation:</p>
+<p>P     I    N<br>A   L S  I G<br>Y A   H R<br>P     I</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="built_in">string</span> <span class="title">convert</span><span class="params">(<span class="built_in">string</span> s, <span class="keyword">int</span> numRows)</span> </span>&#123;</span><br><span class="line">        <span class="built_in">string</span> ans = <span class="string">""</span>;	<span class="comment">//注意初始化</span></span><br><span class="line">        <span class="keyword">if</span>(numRows == <span class="number">1</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> s;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//单独考虑</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; numRows; i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>; (<span class="number">2</span>*numRows - <span class="number">2</span>)*j + i &lt; s.size() ; j++)&#123;</span><br><span class="line">                ans += s[(<span class="number">2</span>*numRows - <span class="number">2</span>)*j + i];</span><br><span class="line">                <span class="keyword">if</span>(i != <span class="number">0</span> &amp;&amp; i != numRows - <span class="number">1</span> &amp;&amp; (<span class="number">2</span>*numRows - <span class="number">2</span>)*j + (<span class="number">2</span>*numRows - <span class="number">2</span>) - i &lt; s.size())&#123;	<span class="comment">//注意附加的范围防止溢出</span></span><br><span class="line">                    ans += s[(<span class="number">2</span>*numRows - <span class="number">2</span>)*j + (<span class="number">2</span>*numRows - <span class="number">2</span>) - i];</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="comment">//注意同一行的两个通项顺序，依次而非并列</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>找规律，<br>除第一行和最后一行外，其他每行都有两个 -&gt; 通项公式</p>
 
       
     </div>
 
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/algorithm/" rel="tag"># algorithm</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/08/03/leetcode-5/" rel="next" title="leetcode 5">
+                <i class="fa fa-chevron-left"></i> leetcode 5
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -570,6 +683,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.0.6"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.0.6"></script>
+
+
 
   
 
